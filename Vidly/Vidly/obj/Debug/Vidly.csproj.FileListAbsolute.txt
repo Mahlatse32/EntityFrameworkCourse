@@ -48,6 +48,8 @@ C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\vbc.rsp
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\VBCSCompiler.exe
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Antlr3.Runtime.dll
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\EntityFramework.dll
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\EntityFramework.SqlServer.dll
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Newtonsoft.Json.dll
@@ -59,6 +61,8 @@ C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\System.Web.WebPages.Dep
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\System.Web.WebPages.dll
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\System.Web.WebPages.Razor.dll
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\WebGrease.dll
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\EntityFramework.xml
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\EntityFramework.SqlServer.xml
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\System.Web.Helpers.xml
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\System.Web.Mvc.xml
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\System.Web.Optimization.xml
@@ -69,7 +73,7 @@ C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\System.Web.WebPages.Raz
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Newtonsoft.Json.xml
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Antlr3.Runtime.pdb
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.pdb
-C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache

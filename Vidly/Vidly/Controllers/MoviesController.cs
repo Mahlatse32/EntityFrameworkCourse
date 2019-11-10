@@ -52,5 +52,28 @@ namespace Vidly.Controllers
         {
             return Content(year + "/" + month);
         }
+
+        private IEnumerable<Movie> GetMovies()
+        {
+            var movies = new List<Movie>
+            {
+                new Movie{ Name = "Shrek", Id = 1},
+                new Movie{ Name = "The Dark Knight", Id = 2}
+            };
+
+            return movies;
+        }
+
+        public ActionResult MovieList()
+        {
+            return View(GetMovies());
+        }
+
+        public ActionResult MovieDetail(int id)
+        {
+            var movie = GetMovies().SingleOrDefault(x => x.Id == id);
+
+            return View(movie);
+        }
     }
 }
