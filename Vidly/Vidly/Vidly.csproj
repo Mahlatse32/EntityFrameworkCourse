@@ -138,8 +138,37 @@
     <Compile Include="Migrations\201911100712252_setupInitialDB.designer.cs">
       <DependentUpon>201911100712252_setupInitialDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911120819461_AddedSubscriberToCustomer.cs" />
+    <Compile Include="Migrations\201911120819461_AddedSubscriberToCustomer.designer.cs">
+      <DependentUpon>201911120819461_AddedSubscriberToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911120825232_AddedmembershipType.cs" />
+    <Compile Include="Migrations\201911120825232_AddedmembershipType.designer.cs">
+      <DependentUpon>201911120825232_AddedmembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911120827445_populateMembershipData.cs" />
+    <Compile Include="Migrations\201911120827445_populateMembershipData.designer.cs">
+      <DependentUpon>201911120827445_populateMembershipData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911120854436_changingSignupfeeToInt.cs" />
+    <Compile Include="Migrations\201911120854436_changingSignupfeeToInt.designer.cs">
+      <DependentUpon>201911120854436_changingSignupfeeToInt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911120907320_addedDataAnnotations.cs" />
+    <Compile Include="Migrations\201911120907320_addedDataAnnotations.designer.cs">
+      <DependentUpon>201911120907320_addedDataAnnotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911120950305_addedMemberShipNameToMemberShipType.cs" />
+    <Compile Include="Migrations\201911120950305_addedMemberShipNameToMemberShipType.designer.cs">
+      <DependentUpon>201911120950305_addedMemberShipNameToMemberShipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911120952296_addDataForMembershipType.cs" />
+    <Compile Include="Migrations\201911120952296_addDataForMembershipType.designer.cs">
+      <DependentUpon>201911120952296_addDataForMembershipType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\RandomMovieViewModel.cs" />
@@ -205,6 +234,27 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201911100712252_setupInitialDB.resx">
       <DependentUpon>201911100712252_setupInitialDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911120819461_AddedSubscriberToCustomer.resx">
+      <DependentUpon>201911120819461_AddedSubscriberToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911120825232_AddedmembershipType.resx">
+      <DependentUpon>201911120825232_AddedmembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911120827445_populateMembershipData.resx">
+      <DependentUpon>201911120827445_populateMembershipData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911120854436_changingSignupfeeToInt.resx">
+      <DependentUpon>201911120854436_changingSignupfeeToInt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911120907320_addedDataAnnotations.resx">
+      <DependentUpon>201911120907320_addedDataAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911120950305_addedMemberShipNameToMemberShipType.resx">
+      <DependentUpon>201911120950305_addedMemberShipNameToMemberShipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911120952296_addDataForMembershipType.resx">
+      <DependentUpon>201911120952296_addDataForMembershipType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

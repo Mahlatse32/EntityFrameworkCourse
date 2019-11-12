@@ -13,13 +13,21 @@
 }
 else
 {
-<ul>
-    @foreach (var customer in Model)
-    {
-        int i = 0;
-
-    <li>@Html.ActionLink(customer.Name, "CustomerInfo", "Customer", new { Id = customer.Id}, null)</li>
-        i++;
-    }
-</ul>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Customer</th>
+                <th>Membership Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model)
+            {
+                <tr>
+                    <td>@Html.ActionLink(customer.Name, "CustomerInfo", "Customer", new { Id = customer.Id }, null)</td>
+                    <td>@customer.MembershipType.MemberShipType</td>
+                </tr>
+            }
+            </tbody>
+    </table>
 }
