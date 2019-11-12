@@ -166,6 +166,14 @@
     <Compile Include="Migrations\201911120952296_addDataForMembershipType.designer.cs">
       <DependentUpon>201911120952296_addDataForMembershipType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911121011584_addedADateOfBirthColumnAtCustomer.cs" />
+    <Compile Include="Migrations\201911121011584_addedADateOfBirthColumnAtCustomer.designer.cs">
+      <DependentUpon>201911121011584_addedADateOfBirthColumnAtCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911121025116_changedToMemberShipName.cs" />
+    <Compile Include="Migrations\201911121025116_changedToMemberShipName.designer.cs">
+      <DependentUpon>201911121025116_changedToMemberShipName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -255,6 +263,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201911120952296_addDataForMembershipType.resx">
       <DependentUpon>201911120952296_addDataForMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911121011584_addedADateOfBirthColumnAtCustomer.resx">
+      <DependentUpon>201911121011584_addedADateOfBirthColumnAtCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911121025116_changedToMemberShipName.resx">
+      <DependentUpon>201911121025116_changedToMemberShipName.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

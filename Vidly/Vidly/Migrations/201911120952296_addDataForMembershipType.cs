@@ -7,13 +7,13 @@
     {
         public override void Up()
         {
-            Sql("Update MembershipTypes SET MemberShipType = 'Pay as you go' WHERE" +
+            Sql("Update MembershipTypes SET MemberShipName = 'Pay as you go' WHERE" +
                 " id = 1");
-            Sql("Update MembershipTypes SET MemberShipType = 'Monthly' WHERE" +
+            Sql("Update MembershipTypes SET MemberShipName = 'Monthly' WHERE" +
                 " id = 2");
-            Sql("Update MembershipTypes SET MemberShipType = 'Quarterly' WHERE" +
+            Sql("Update MembershipTypes SET MemberShipName = 'Quarterly' WHERE" +
                 " id = 3");
-            Sql("Update MembershipTypes SET MemberShipType = 'Yearly' WHERE" +
+            Sql("Update MembershipTypes SET MemberShipName = 'Yearly' WHERE" +
                 " id = 4");
         }
         

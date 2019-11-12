@@ -86,3 +86,5 @@ C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedDataAnnotations.resources
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedMemberShipNameToMemberShipType.resources
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.addDataForMembershipType.resources
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedADateOfBirthColumnAtCustomer.resources
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.changedToMemberShipName.resources

@@ -7,3 +7,14 @@
 
 <h2>@Model.Name</h2>
 
+<p>Membership Type: @Model.MembershipType.MemberShipName</p>
+
+@if (!Model.BirthDay.HasValue)
+{
+
+}
+else
+{
+    <p> Birthdate: @Model.BirthDay</p>
+}
+
