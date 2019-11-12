@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Vidly.DataAccessLayer;
 using Vidly.Models;
 using Vidly.ViewModel;
 
@@ -10,6 +12,13 @@ namespace Vidly.Controllers
 {
     public class MoviesController : Controller
     {
+        private VidlyContext _dbContext;
+
+        public MoviesController()
+        {
+            _dbContext = new VidlyContext();
+        }
+
         // GET: Movies
         public ActionResult Random()
         {
@@ -55,11 +64,7 @@ namespace Vidly.Controllers
 
         private IEnumerable<Movie> GetMovies()
         {
-            var movies = new List<Movie>
-            {
-                new Movie{ Name = "Shrek", Id = 1},
-                new Movie{ Name = "The Dark Knight", Id = 2}
-            };
+            var movies = _dbContext.Movies.Include(c => c.Genre).ToList();
 
             return movies;
         }

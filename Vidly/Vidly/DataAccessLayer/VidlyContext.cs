@@ -11,6 +11,7 @@ namespace Vidly.DataAccessLayer
     {
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Genre> Genres { get; set; }
 
         public VidlyContext()
             : base("name=DeafaultConnection")

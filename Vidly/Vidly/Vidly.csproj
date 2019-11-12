@@ -174,8 +174,21 @@
     <Compile Include="Migrations\201911121025116_changedToMemberShipName.designer.cs">
       <DependentUpon>201911121025116_changedToMemberShipName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911121237486_addedNewPropertiesTotheMoviesClass.cs" />
+    <Compile Include="Migrations\201911121237486_addedNewPropertiesTotheMoviesClass.designer.cs">
+      <DependentUpon>201911121237486_addedNewPropertiesTotheMoviesClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911121242226_addednewTableGenre.cs" />
+    <Compile Include="Migrations\201911121242226_addednewTableGenre.designer.cs">
+      <DependentUpon>201911121242226_addednewTableGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911121243138_addDataToGenreTable.cs" />
+    <Compile Include="Migrations\201911121243138_addDataToGenreTable.designer.cs">
+      <DependentUpon>201911121243138_addDataToGenreTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -269,6 +282,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201911121025116_changedToMemberShipName.resx">
       <DependentUpon>201911121025116_changedToMemberShipName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911121237486_addedNewPropertiesTotheMoviesClass.resx">
+      <DependentUpon>201911121237486_addedNewPropertiesTotheMoviesClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911121242226_addednewTableGenre.resx">
+      <DependentUpon>201911121242226_addednewTableGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911121243138_addDataToGenreTable.resx">
+      <DependentUpon>201911121243138_addDataToGenreTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

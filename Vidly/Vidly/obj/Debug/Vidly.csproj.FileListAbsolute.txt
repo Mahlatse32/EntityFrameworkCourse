@@ -73,12 +73,7 @@ C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\System.Web.WebPages.Raz
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Newtonsoft.Json.xml
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Antlr3.Runtime.pdb
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.setupInitialDB.resources
-C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
-C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
-C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.dll
-C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedSubscriberToCustomer.resources
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedmembershipType.resources
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.populateMembershipData.resources
@@ -88,3 +83,10 @@ C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.addDataForMembershipType.resources
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedADateOfBirthColumnAtCustomer.resources
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.changedToMemberShipName.resources
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedNewPropertiesTotheMoviesClass.resources
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.addednewTableGenre.resources
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.addDataToGenreTable.resources
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.dll
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.pdb
