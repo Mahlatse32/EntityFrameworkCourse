@@ -84,5 +84,53 @@ namespace Vidly.Controllers
 
             return View(movie);
         }
+
+        public ActionResult New()
+        {
+            ViewBag.Title = "New Movie";
+
+            var viewModel = new MovieFormViewModel
+            {
+                Genres = _dbContext.Genres.ToList()
+            };
+            return View("MovieForm", viewModel);
+        }
+
+        public ActionResult EditMovie(int id)
+        {
+            ViewBag.Title = "Edit Movie";
+
+            var movie = _dbContext.Movies.Where(x => x.Id == id).Include(x => x.Genre).FirstOrDefault();
+
+            var viewModel = new MovieFormViewModel
+            {
+                Movie = movie,
+                Genres = _dbContext.Genres.ToList()
+            };
+
+            return View("MovieForm", viewModel);
+        }
+
+        [HttpPost]
+        public ActionResult Save(Movie movie)
+        {
+            if (movie.Id == 0)
+            {
+                movie.DateAdded = DateTime.Now;
+                _dbContext.Movies.Add(movie);
+            }
+            else
+            {
+                var movieInDb = _dbContext.Movies.Single(m => m.Id == movie.Id);
+                movieInDb.Name = movie.Name;
+                movieInDb.GenreId = movie.GenreId;
+                movieInDb.ReleaseDate = movie.ReleaseDate;
+                movieInDb.ReleaseDate = movie.ReleaseDate;
+            }
+
+            _dbContext.SaveChanges();
+
+            return RedirectToAction("MovieList", "Movies");
+        }
     }
 }

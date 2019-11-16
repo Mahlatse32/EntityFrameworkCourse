@@ -189,6 +189,10 @@
     <Compile Include="Migrations\201911121243138_addDataToGenreTable.designer.cs">
       <DependentUpon>201911121243138_addDataToGenreTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911161448417_addedGenreIdInMovieClassModel.cs" />
+    <Compile Include="Migrations\201911161448417_addedGenreIdInMovieClassModel.designer.cs">
+      <DependentUpon>201911161448417_addedGenreIdInMovieClassModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -196,6 +200,7 @@
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\CustomerFormViewModel.cs" />
+    <Compile Include="ViewModel\MovieFormViewModel.cs" />
     <Compile Include="ViewModel\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -240,6 +245,7 @@
     <Content Include="Views\Customer\CustomerInfo.cshtml" />
     <Content Include="Views\Movies\MovieDetail.cshtml" />
     <Content Include="Views\Customer\CustomerForm.cshtml" />
+    <Content Include="Views\Movies\MovieForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -296,6 +302,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201911121243138_addDataToGenreTable.resx">
       <DependentUpon>201911121243138_addDataToGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911161448417_addedGenreIdInMovieClassModel.resx">
+      <DependentUpon>201911161448417_addedGenreIdInMovieClassModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
