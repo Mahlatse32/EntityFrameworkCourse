@@ -10,11 +10,11 @@ using Vidly.ViewModel;
 
 namespace Vidly.Controllers
 {
-    public class MoviesController : Controller
+    public class MovieController : Controller
     {
         private VidlyContext _dbContext;
 
-        public MoviesController()
+        public MovieController()
         {
             _dbContext = new VidlyContext();
         }
@@ -141,7 +141,7 @@ namespace Vidly.Controllers
 
             _dbContext.SaveChanges();
 
-            return RedirectToAction("MovieList", "Movies");
+            return RedirectToAction("MovieList", "Movie");
         }
     }
 }

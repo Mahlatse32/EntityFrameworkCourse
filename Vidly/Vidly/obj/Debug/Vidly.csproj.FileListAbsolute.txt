@@ -94,9 +94,6 @@ C:\Users\mahlatset\Desktop\Code\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\mahlatset\Desktop\Code\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\mahlatset\Desktop\Code\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\mahlatset\Desktop\Code\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
-C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\VBCSCompiler.exe
-C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Vidly.dll.config
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Vidly.dll
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Vidly.pdb
@@ -140,10 +137,14 @@ C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\System.ValueTupl
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\System.Xml.ReaderWriter.dll
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\System.Xml.XmlDocument.dll
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\System.Xml.XPath.dll
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\System.Xml.XPath.XDocument.dll
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\vbc.exe
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\vbc.exe.config
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\vbc.rsp
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\VBCSCompiler.exe
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Antlr3.Runtime.dll
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\AutoMapper.Collection.dll
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\AutoMapper.dll
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\AutoMapper.EF6.dll
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -186,7 +187,6 @@ C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\System.Web.WebPages.Raz
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Newtonsoft.Json.xml
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Antlr3.Runtime.pdb
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.setupInitialDB.resources
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedSubscriberToCustomer.resources
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedmembershipType.resources
@@ -207,4 +207,3 @@ C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.csproj.Gene
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.pdb
-C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\AutoMapper.Collection.dll

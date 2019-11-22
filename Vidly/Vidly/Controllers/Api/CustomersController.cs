@@ -40,20 +40,20 @@ namespace Vidly.Controllers.Api
         #region Methods
 
         //GET /api/customers
-        public IEnumerable<CustomerDto> GetCustomers()
+        public IHttpActionResult GetCustomers()
         {
-            return _dbContext.Customers.ProjectToList<CustomerDto>(config);
+            return Ok(_dbContext.Customers.ProjectToList<CustomerDto>(config));
         }
 
         //GET /api/customers/id
         public IHttpActionResult GetCustomer(int id)
         {
-            var customer = _dbContext.Customers.Where(x => x.Id == id);
+            var customer = _dbContext.Customers.SingleOrDefault(c => c.Id == id); ;
 
             if (customer == null)
                 return NotFound();
 
-            return Ok(customer.ProjectToSingleOrDefault<CustomerDto>(config));
+            return Ok(_mapper.Map<Customer, CustomerDto>(customer));
         }
 
         //Post /api/customers

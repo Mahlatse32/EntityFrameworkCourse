@@ -163,9 +163,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\Api\CustomersController.cs" />
+    <Compile Include="Controllers\Api\MoviesController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\MoviesController.cs" />
+    <Compile Include="Controllers\MovieController.cs" />
     <Compile Include="DataAccessLayer\VidlyContext.cs" />
     <Compile Include="DTO\CustomerDto.cs" />
     <Compile Include="DTO\MovieDto.cs" />
