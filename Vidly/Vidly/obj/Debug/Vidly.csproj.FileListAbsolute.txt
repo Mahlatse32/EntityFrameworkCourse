@@ -187,6 +187,7 @@ C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\System.Web.WebPages.Raz
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Newtonsoft.Json.xml
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Antlr3.Runtime.pdb
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.setupInitialDB.resources
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedSubscriberToCustomer.resources
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedmembershipType.resources

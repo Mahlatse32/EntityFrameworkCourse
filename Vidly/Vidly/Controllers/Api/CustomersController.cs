@@ -29,7 +29,7 @@ namespace Vidly.Controllers.Api
 
         private VidlyContext _dbContext;
 
-        IMapper _mapper;
+        private IMapper _mapper;
 
         MapperConfiguration config = new MapperConfiguration(cfg => {
             cfg.AddProfile<MappingProfile>();
@@ -60,8 +60,6 @@ namespace Vidly.Controllers.Api
         [HttpPost]
         public IHttpActionResult CreateCustomer(CustomerDto customerDto)
         {
-            //var _mapper = new Mapper(config);
-
             if (!ModelState.IsValid)
                 return BadRequest();
 
