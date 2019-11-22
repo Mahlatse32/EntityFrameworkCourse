@@ -1,10 +1,7 @@
 ﻿
 
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
 
 namespace Vidly.Models
 {
@@ -22,6 +19,7 @@ namespace Vidly.Models
 
         [Display(Name = "Membership Type")]
         public MembershipType MembershipType { get; set; }
+
         public byte MembershipTypeId { get; set; }
     }
 }
