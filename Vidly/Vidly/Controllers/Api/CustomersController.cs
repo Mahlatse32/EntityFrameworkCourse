@@ -42,7 +42,10 @@ namespace Vidly.Controllers.Api
         //GET /api/customers
         public IHttpActionResult GetCustomers()
         {
-            return Ok(_dbContext.Customers.ProjectToList<CustomerDto>(config));
+            var customerDtos = _dbContext.Customers
+                .Include(c => c.MembershipType)
+                .ProjectToList<CustomerDto>(config);
+            return Ok(customerDtos);
         }
 
         //GET /api/customers/id

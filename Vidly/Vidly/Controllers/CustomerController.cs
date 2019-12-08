@@ -96,7 +96,7 @@ namespace Vidly.Controllers
 
         public ActionResult CustomerIndex()
         {
-            return View(GetCustomer());
+            return View();
         }
 
         public ActionResult CustomerInfo(int id)
