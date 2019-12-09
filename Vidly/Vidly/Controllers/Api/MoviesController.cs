@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using AutoMapper;
+using System;
+using System.Data.Entity;
+using System.Data.Entity.Validation;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
 using System.Web.Http;
-using Vidly.DataAccessLayer;
-using AutoMapper;
-using Vidly.DTO;
 using Vidly.App_Start;
+using Vidly.DataAccessLayer;
+using Vidly.DTO;
 using Vidly.Models;
-using System.Data.Entity.Validation;
 
 namespace Vidly.Controllers.Api
 {
@@ -38,11 +37,17 @@ namespace Vidly.Controllers.Api
 
         #region Methods
 
+        //GET  /api/Movies/GetMovies
         public IHttpActionResult GetMovies()
         {
-            return Ok(_dbContext.Movies.ProjectToList<MovieDto>(config));
+            var movieDtos = _dbContext.Movies
+                            .Include(c => c.Genre)
+                            .ProjectToList<MovieDto>(config);
+
+            return Ok(movieDtos);
         }
 
+        //GET  /api/Movies/GetMovie
         public IHttpActionResult GetMovie(int id)
         {
             var movie = _dbContext.Movies.SingleOrDefault(c => c.Id == id);
@@ -50,9 +55,12 @@ namespace Vidly.Controllers.Api
             if (movie == null)
                 return NotFound();
 
-            return Ok(_mapper.Map<Movie, MovieDto>(movie));
+            var movieDto = _mapper.Map<Movie, MovieDto>(movie);
+
+            return Ok(movieDto);
         }
 
+        //Post /api/movies
         [HttpPost]
         public IHttpActionResult CreateMovie(MovieDto movieDto)
         {

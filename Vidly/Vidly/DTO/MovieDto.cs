@@ -24,9 +24,8 @@ namespace Vidly.DTO
         public int NumberInStocks { get; set; }
 
         [Required(ErrorMessage = "Please select a Genre")]
-        public Genre Genre { get; set; }
-
-        [Required(ErrorMessage = "Please select a Genre")]
         public int GenreId { get; set; }
+
+        public GenreTypeDto Genre { get; set; }
     }
 }

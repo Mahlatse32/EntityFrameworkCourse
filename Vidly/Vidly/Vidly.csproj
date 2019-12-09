@@ -169,6 +169,7 @@
     <Compile Include="Controllers\MovieController.cs" />
     <Compile Include="DataAccessLayer\VidlyContext.cs" />
     <Compile Include="DTO\CustomerDto.cs" />
+    <Compile Include="DTO\GenreTypeDto.cs" />
     <Compile Include="DTO\MembershipTypeDto.cs" />
     <Compile Include="DTO\MovieDto.cs" />
     <Compile Include="Global.asax.cs">
@@ -534,7 +535,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Movies\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
