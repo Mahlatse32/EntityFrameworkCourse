@@ -6,24 +6,24 @@ using System.Web;
 
 namespace Vidly.Models
 {
-    public class AccountViewModel
-    {
 
-    }
-
-    public class LoginViewModel
+    public class ExternalLoginConfirmationViewModel
     {
         [Required]
         [Display(Name = "Email")]
-        [EmailAddress]
         public string Email { get; set; }
+    }
 
-        [Required]
-        [DataType(DataType.Password)]
-        [Display(Name = "Password")]
-        public string Password { get; set; }
+    public class ExternalLoginListViewModel
+    {
+        public string ReturnUrl { get; set; }
+    }
 
-        [Display(Name = "Remember me?")]
+    public class SendCodeViewModel
+    {
+        public string SelectedProvider { get; set; }
+        public ICollection<System.Web.Mvc.SelectListItem> Providers { get; set; }
+        public string ReturnUrl { get; set; }
         public bool RememberMe { get; set; }
     }
 
@@ -43,12 +43,31 @@ namespace Vidly.Models
         public bool RememberMe { get; set; }
     }
 
-    public class RegisterViewModel
+    public class ForgotViewModel
     {
         [Required]
-        [Display(Name = "Driving License")]
-        public string DrivingLicense { get; set; }
+        [Display(Name = "Email")]
+        public string Email { get; set; }
+    }
 
+    public class LoginViewModel
+    {
+        [Required]
+        [Display(Name = "Email")]
+        [EmailAddress]
+        public string Email { get; set; }
+
+        [Required]
+        [DataType(DataType.Password)]
+        [Display(Name = "Password")]
+        public string Password { get; set; }
+
+        [Display(Name = "Remember me?")]
+        public bool RememberMe { get; set; }
+    }
+
+    public class RegisterViewModel
+    {
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
@@ -64,18 +83,6 @@ namespace Vidly.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
-
-        [Required]
-        [StringLength(50)]
-        public string Phone { get; set; }
-    }
-
-    public class ForgotPasswordViewModel
-    {
-        [Required]
-        [EmailAddress]
-        [Display(Name = "Email")]
-        public string Email { get; set; }
     }
 
     public class ResetPasswordViewModel
@@ -99,26 +106,11 @@ namespace Vidly.Models
         public string Code { get; set; }
     }
 
-    public class SendCodeViewModel
-    {
-        public string SelectedProvider { get; set; }
-        public ICollection<System.Web.Mvc.SelectListItem> Providers { get; set; }
-        public string ReturnUrl { get; set; }
-        public bool RememberMe { get; set; }
-    }
-
-    public class ExternalLoginConfirmationViewModel
+    public class ForgotPasswordViewModel
     {
         [Required]
+        [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
-
-        [Required]
-        [Display(Name = "Driving License")]
-        public string DrivingLicense { get; set; }
-
-        [Required]
-        [StringLength(50)]
-        public string Phone { get; set; }
     }
 }

@@ -12,7 +12,7 @@ namespace Vidly.DataAccessLayer
         public DbSet<MembershipType> membershipTypes { get; set; }
 
         public VidlyContext()
-            : base("name=DeafaultConnection")
+            : base("name=DefaultConnection", throwIfV1Schema: false)
         {
 
         }
