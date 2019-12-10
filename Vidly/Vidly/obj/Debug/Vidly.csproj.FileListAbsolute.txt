@@ -221,6 +221,7 @@ C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedGenreIdInMovieClassModel.resources
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.nadeFieldsInMoviesRequired.resources
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.nadeFieldsInMoviesRequired1.resources
+C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedAuthenticationManually.resources
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\mahlatset\Desktop\Vidly-MVC-app\Vidly\Vidly\obj\Debug\Vidly.dll

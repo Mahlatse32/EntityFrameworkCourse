@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using Vidly.DataAccessLayer;
 using Vidly.Models;
 
-namespace Vidly.App_Start
+namespace Vidly
 {
     public class IdentityConfig
     {
