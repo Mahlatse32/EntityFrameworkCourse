@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
 using System.Data.Entity;
-using System.Linq;
-using System.Web;
 using Vidly.Models;
 
 namespace Vidly.DataAccessLayer
 {
-    public class VidlyContext : DbContext 
+    public class VidlyContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Movie> Movies { get; set; }
@@ -18,6 +15,11 @@ namespace Vidly.DataAccessLayer
             : base("name=DeafaultConnection")
         {
 
+        }
+
+        public static VidlyContext Create()
+        {
+            return new VidlyContext();
         }
     }
 }
