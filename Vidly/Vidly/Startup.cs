@@ -1,7 +1,7 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(Vidly.Startup))]
+[assembly: OwinStartupAttribute(typeof(Vidly.Startup))]
 
 namespace Vidly
 {
