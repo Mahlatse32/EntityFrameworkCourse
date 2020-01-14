@@ -74,7 +74,10 @@ namespace Vidly.Controllers
 
         public ActionResult MovieList()
         {
-            return View();
+            if (User.IsInRole(RoleName.CanManageMovies))
+                return View("MovieList");
+
+            return View("ReadOnlyMovieList");
         }
 
         public ActionResult MovieDetail(int id)
@@ -84,6 +87,7 @@ namespace Vidly.Controllers
             return View(movie);
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult New()
         {
             ViewBag.Title = "New Movie";
@@ -95,6 +99,7 @@ namespace Vidly.Controllers
             return View("MovieForm", viewModel);
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult EditMovie(int id)
         {
             ViewBag.Title = "Edit Movie";

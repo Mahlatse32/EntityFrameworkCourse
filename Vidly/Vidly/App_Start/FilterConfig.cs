@@ -10,6 +10,7 @@ namespace Vidly
             filters.Add(new HandleErrorAttribute());
             //This is a global filter to redirect to authorization
             //filters.Add(new AuthorizeAttribute());
+            filters.Add(new RequireHttpsAttribute());
         }
     }
 }
