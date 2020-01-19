@@ -40,12 +40,18 @@ namespace Vidly.Controllers.Api
         #region Methods
 
         //GET /api/customers
-        public IHttpActionResult GetCustomers()
+        public IHttpActionResult GetCustomers(string query = null)
         {
-            var customerDtos = _dbContext.Customers
-                .Include(c => c.MembershipType)
+            var customerQuery = _dbContext.Customers
+                .Include(c => c.MembershipType);
+
+            if (!string.IsNullOrWhiteSpace(query))
+                customerQuery = customerQuery.Where(c => c.Name.Contains(query));
+
+            var customersDtos = customerQuery
                 .ProjectToList<CustomerDto>(config);
-            return Ok(customerDtos);
+
+            return Ok(customersDtos);
         }
 
         //GET /api/customers/id

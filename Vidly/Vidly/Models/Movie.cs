@@ -21,7 +21,9 @@ namespace Vidly.Models
         [Display(Name = "Number in Stocks")]
         [NumberInStockRule]
         public int NumberInStocks { get; set; }
-        
+
+        public int NumberAvailable { get; set; }
+
         [Required(ErrorMessage = "Please select a Genre")]
         public Genre Genre { get; set; }
 

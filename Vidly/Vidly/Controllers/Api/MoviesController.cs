@@ -38,10 +38,15 @@ namespace Vidly.Controllers.Api
         #region Methods
 
         //GET  /api/Movies/GetMovies
-        public IHttpActionResult GetMovies()
+        public IHttpActionResult GetMovies(string query = null)
         {
-            var movieDtos = _dbContext.Movies
-                            .Include(c => c.Genre)
+            var moviesQuery = _dbContext.Movies.Include(m => m.Genre)
+                               .Where(m => m.NumberAvailable > 0);
+
+            if (!string.IsNullOrWhiteSpace(query))
+                moviesQuery = moviesQuery.Where(m => m.Name.Contains(query));
+
+            var movieDtos = moviesQuery
                             .ProjectToList<MovieDto>(config);
 
             return Ok(movieDtos);

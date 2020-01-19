@@ -10,6 +10,7 @@ namespace Vidly.DataAccessLayer
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Genre> Genres { get; set; }
         public DbSet<MembershipType> membershipTypes { get; set; }
+        public DbSet<Rental> Rentals { get; set; }
 
         public VidlyContext()
             : base("name=DefaultConnection", throwIfV1Schema: false)
